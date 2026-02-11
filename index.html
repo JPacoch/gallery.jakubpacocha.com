@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A curated portfolio of editorial, landscape, and portrait photography. Minimalist visual storytelling.">
+    <title>Aperture — Visual Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Libraries -->
+    <script defer src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader" aria-hidden="true">
+        <span class="loader__text font-display">home gallery</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="index.html" class="nav__logo">home gallery</a>
+        <div class="nav__actions">
+            <a class="nav__link" href="about.html">About</a>
+            <a class="nav__link" href="#footer">Contact</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"></button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="hero">
+        <canvas class="hero__canvas" id="shaderCanvas"></canvas>
+        <div class="hero__veil"></div>
+        <!-- <div class="hero__orb hero__orb--one" data-parallax data-speed="0.35" aria-hidden="true"></div> -->
+        <!-- <div class="hero__orb hero__orb--two" data-parallax data-speed="0.55" aria-hidden="true"></div> -->
+
+        <div class="hero__content" data-parallax data-speed="-0.2">
+            <h1 class="hero__title font-display">
+                <span class="hero__line">Photo album</span>
+                <span class="hero__line">that <i>feels</i></span>
+                <span class="hero__line">like home.</span>
+            </h1>
+            <p class="hero__subtitle">
+                I shoot mostly cityscapes, landscapes and do travel photography. Welcome to my selective gallery.
+            </p>
+        </div>
+
+        <div class="hero__scroll">
+            <span class="hero__scroll-text">Scroll</span>
+            <span class="hero__scroll-line"></span>
+        </div>
+    </header>
+
+    <!-- Gallery -->
+    <div class="section-header" id="gallery">
+        <h2 class="section-header__title font-display">Selected Works</h2>
+        <span class="section-header__count"></span>
+    </div>
+    <section class="gallery">
+        <div class="masonry-grid"></div>
+    </section>
+
+    <!-- Focus Mode Overlay -->
+    <div class="focus-overlay" aria-hidden="true">
+        <button class="focus-overlay__close" aria-label="Close">✕</button>
+        <div class="focus-overlay__image-container">
+            <img src="" alt="" />
+        </div>
+        <div class="focus-overlay__exif"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <a href="mailto:pacochp@gmail.com" class="footer__cta-wrapper">
+            <span class="footer__cta font-display">
+                Let's Talk <span class="footer__cta-arrow">↗</span>
+            </span>
+        </a>
+        <div class="footer__bottom">
+            <div class="footer__info">
+                <span class="footer__location">Bydgoszcz, PL</span>
+            </div>
+            <div class="footer__links">
+                <a href="#" class="footer__link">Instagram</a>
+                <a href="#" class="footer__link">Behance</a>
+                <a href="mailto:hello@aperture.studio" class="footer__link">Email</a>
+            </div>
+            <span class="footer__copyright">© 2026 Jakub Pacocha. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- App Script -->
+    <script defer src="app.js"></script>
+</body>
+
+</html>

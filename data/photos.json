@@ -1,0 +1,151 @@
+{
+  "photos": [
+    {
+      "id": "1",
+      "publicId": "_6180288_vp0vpf",
+      "title": "Tokyo",
+      "category": "Street",
+      "year": "2023",
+      "aspectRatio": "3:2",
+      "orientation": "landscape",
+      "exif": {
+        "camera": "Sony A7IV",
+        "lens": "35mm f/1.4",
+        "aperture": "f/2.8",
+        "shutter": "1/250s",
+        "iso": "400"
+      }
+    },
+    {
+      "id": "2",
+      "publicId": "_6180283_gbcsgt",
+      "title": "Essence",
+      "category": "Editorial",
+      "year": "2023",
+      "aspectRatio": "4:3",
+      "orientation": "vertical",
+      "exif": {
+        "camera": "Canon R5",
+        "lens": "85mm f/1.2",
+        "aperture": "f/1.8",
+        "shutter": "1/500s",
+        "iso": "200"
+      }
+    },
+    {
+      "id": "3",
+      "publicId": "_6180288_vp0vpf",
+      "title": "Grain",
+      "category": "B&W",
+      "year": "2023",
+      "aspectRatio": "16:9",
+      "orientation": "landscape",
+      "exif": {
+        "camera": "Leica M11",
+        "lens": "50mm f/2",
+        "aperture": "f/4",
+        "shutter": "1/125s",
+        "iso": "800"
+      }
+    },
+    {
+      "id": "4",
+      "publicId": "_6180288_vp0vpf",
+      "title": "Essence",
+      "category": "Editorial",
+      "year": "2023",
+      "aspectRatio": "4:3",
+      "orientation": "vertical",
+      "exif": {
+        "camera": "Canon R5",
+        "lens": "85mm f/1.2",
+        "aperture": "f/1.8",
+        "shutter": "1/500s",
+        "iso": "200"
+      }
+    },
+    {
+      "id": "5",
+      "publicId": "_6180288_vp0vpf",
+      "title": "Grain",
+      "category": "B&W",
+      "year": "2023",
+      "aspectRatio": "16:9",
+      "orientation": "landscape",
+      "exif": {
+        "camera": "Leica M11",
+        "lens": "50mm f/2",
+        "aperture": "f/4",
+        "shutter": "1/125s",
+        "iso": "800"
+      }
+      
+    },
+    {
+      "id": "6",
+      "publicId": "_6180283_gbcsgt",
+      "title": "Essence",
+      "category": "Editorial",
+      "year": "2023",
+      "aspectRatio": "4:3",
+      "orientation": "vertical",
+      "exif": {
+        "camera": "Canon R5",
+        "lens": "85mm f/1.2",
+        "aperture": "f/1.8",
+        "shutter": "1/500s",
+        "iso": "200"
+      }
+    },
+    {
+      "id": "7",
+      "publicId": "_6180288_vp0vpf",
+      "title": "Grain",
+      "category": "B&W",
+      "year": "2023",
+      "aspectRatio": "16:9",
+      "orientation": "landscape",
+      "exif": {
+        "camera": "Leica M11",
+        "lens": "50mm f/2",
+        "aperture": "f/4",
+        "shutter": "1/125s",
+        "iso": "800"
+      }
+      
+    },
+    {
+      "id": "8",
+      "publicId": "_6180288_vp0vpf",
+      "title": "Essence",
+      "category": "Editorial",
+      "year": "2023",
+      "aspectRatio": "4:3",
+      "orientation": "vertical",
+      "exif": {
+        "camera": "Canon R5",
+        "lens": "85mm f/1.2",
+        "aperture": "f/1.8",
+        "shutter": "1/500s",
+        "iso": "200"
+      }
+    },
+    {
+      "id": "9",
+      "publicId": "_6180288_vp0vpf",
+      "title": "Grain",
+      "category": "B&W",
+      "year": "2023",
+      "aspectRatio": "16:9",
+      "orientation": "landscape",
+      "exif": {
+        "camera": "Leica M11",
+        "lens": "50mm f/2",
+        "aperture": "f/4",
+        "shutter": "1/125s",
+        "iso": "800"
+      }
+      
+    }
+  ]
+}
