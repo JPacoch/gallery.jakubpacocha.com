@@ -496,11 +496,6 @@ button {
     padding: 0 4% 8rem;
 }
 
-.masonry-grid {
-    columns: 3;
-    column-gap: var(--gap);
-}
-
 .gallery-empty {
     color: var(--text-secondary);
     font-size: 0.95rem;
@@ -510,6 +505,11 @@ button {
 
 .gallery-empty code {
     font-size: 0.85em;
+}
+
+.masonry-grid {
+    column-count: 3;
+    column-gap: var(--gap);
 }
 
 .gallery-item {
@@ -1008,7 +1008,7 @@ button {
 /* --- 12. RESPONSIVE --- */
 @media (max-width: 1200px) {
     .masonry-grid {
-        columns: 2;
+        column-count: 2;
     }
 
     .hero__panel {
@@ -1018,7 +1018,7 @@ button {
 
 @media (max-width: 768px) {
     .masonry-grid {
-        columns: 1;
+        column-count: 1;
     }
 
     .nav {

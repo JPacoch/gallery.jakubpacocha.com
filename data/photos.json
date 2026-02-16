@@ -3,17 +3,17 @@
     {
       "id": "1",
       "publicId": "000016780031_psuy3y",
-      "title": "Untitled",
-      "category": "General",
+      "title": "road",
+      "category": "35mm",
       "year": "2026",
       "aspectRatio": "1545:1024",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
-        "aperture": "N/A",
+        "camera": "Zenith ET",
+        "lens": "Helios 44-2 58mm f/2",
+        "aperture": "f/2",
         "shutter": "N/A",
-        "iso": "N/A"
+        "iso": "200"
       }
     },
     {

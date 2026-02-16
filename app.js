@@ -15,7 +15,8 @@
         if (!CONFIG.cloudName || !publicId) return '';
 
         const cleanId = String(publicId).replace(/^\/+/, '');
-        return `https://res.cloudinary.com/${CONFIG.cloudName}/image/upload/${cleanId}`;
+        const transforms = `f_auto,q_auto:good,w_${width || 'auto'},c_limit,dpr_auto`;
+        return `https://res.cloudinary.com/${CONFIG.cloudName}/image/upload/${transforms}/${cleanId}`;
     }
 
     function getPhotoSrc(photo, width) {
@@ -682,25 +683,6 @@
                 },
             });
 
-            const img = item.querySelector('img');
-            if (img) {
-                const drift = (idx % 5) - 2;
-                gsap.fromTo(
-                    img,
-                    { scale: 1.12, yPercent: -6 - drift * 2.5 },
-                    {
-                        scale: 1,
-                        yPercent: 8 + drift * 2,
-                        ease: 'none',
-                        scrollTrigger: {
-                            trigger: item,
-                            start: 'top bottom',
-                            end: 'bottom top',
-                            scrub: true,
-                        },
-                    }
-                );
-            }
         });
     }
 
