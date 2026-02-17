@@ -339,6 +339,8 @@
         });
     }
 
+    let lenisInstance = null;
+
     function initLenis() {
         const lenis = new Lenis({
             duration: 1.3,
@@ -357,7 +359,35 @@
 
         gsap.ticker.lagSmoothing(0);
 
+        lenisInstance = lenis;
         return lenis;
+    }
+
+    function initSmoothAnchorLinks() {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement && lenisInstance) {
+                    gsap.to(this, {
+                        scale: 0.95,
+                        duration: 0.15,
+                        yoyo: true,
+                        repeat: 1,
+                        ease: 'power2.inOut'
+                    });
+
+                    lenisInstance.scrollTo(targetElement, {
+                        offset: -20,
+                        duration: 1.8,
+                        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                    });
+                }
+            });
+        });
     }
 
     function splitTextIntoChars(element) {
@@ -602,7 +632,6 @@
             return [];
         }
 
-        // Sort photos by numeric ID descending (highest first)
         const sortedPhotos = [...photos].sort((a, b) => {
             const idA = parseInt(a.id, 10);
             const idB = parseInt(b.id, 10);
@@ -617,7 +646,6 @@
 
             const item = document.createElement('div');
             item.className = 'gallery-item';
-            // FIX: Store the index in the sorted array, not the original array
             item.dataset.index = idx;
             item.innerHTML = `
                 <div class="gallery-item__wrapper">
@@ -642,7 +670,6 @@
             countEl.textContent = `${photos.length} Works`;
         }
 
-        // FIX: Return the sorted array since that's what's displayed
         return sortedPhotos;
     }
 
@@ -709,7 +736,6 @@
         const exifPanel = overlay.querySelector('.focus-overlay__exif');
         if (!overlayImg || !closeBtn || !exifPanel) return;
 
-        // Remove old event listeners if they exist
         if (gridClickHandler) {
             grid.removeEventListener('click', gridClickHandler);
         }
@@ -723,7 +749,6 @@
             document.removeEventListener('keydown', keydownHandler);
         }
 
-        // Create new event handlers with current photos closure
         gridClickHandler = (e) => {
             const item = e.target.closest('.gallery-item');
             if (!item) return;
@@ -747,7 +772,6 @@
             if (e.key === 'Escape' && focusActive) closeFocus(overlay);
         };
 
-        // Add new event listeners
         grid.addEventListener('click', gridClickHandler);
         closeBtn.addEventListener('click', closeClickHandler);
         overlay.addEventListener('click', overlayClickHandler);
@@ -825,6 +849,112 @@
         }
     }
 
+    function initAboutPage() {
+        const aboutHero = document.querySelector('.about-hero');
+        if (!aboutHero) return;
+
+        const eyebrow = document.querySelector('.about-hero__eyebrow');
+        const title = document.querySelector('.about-hero__title');
+        const subtitle = document.querySelector('.about-hero__subtitle');
+        const quote = document.querySelector('.about-content__quote');
+        const body = document.querySelector('.about-content__body');
+        const dividers = document.querySelectorAll('.about-divider');
+        const socialLinks = document.querySelectorAll('.social-link');
+
+        const tl = gsap.timeline({
+            delay: 0.6,
+            defaults: { ease: 'power3.out' },
+        });
+
+        if (eyebrow) {
+            tl.to(eyebrow, {
+                opacity: 1,
+                y: 0,
+                duration: 0.8,
+            });
+        }
+
+        if (title) {
+            splitTextIntoChars(title);
+            const chars = title.querySelectorAll('.hero__char');
+            tl.to(
+                chars,
+                {
+                    y: 0,
+                    duration: 1.15,
+                    stagger: 0.018,
+                    ease: 'power4.out',
+                },
+                '-=0.4'
+            );
+        }
+
+        if (subtitle) {
+            tl.to(
+                subtitle,
+                {
+                    opacity: 1,
+                    y: 0,
+                    duration: 0.9,
+                },
+                '-=0.6'
+            );
+        }
+
+        if (quote) {
+            gsap.to(quote, {
+                opacity: 1,
+                y: 0,
+                duration: 1,
+                ease: 'power3.out',
+                scrollTrigger: {
+                    trigger: quote,
+                    start: 'top 75%',
+                },
+            });
+        }
+
+        if (body) {
+            gsap.to(body, {
+                opacity: 1,
+                y: 0,
+                duration: 1,
+                ease: 'power3.out',
+                scrollTrigger: {
+                    trigger: body,
+                    start: 'top 75%',
+                },
+            });
+        }
+
+        dividers.forEach((divider, idx) => {
+            gsap.to(divider, {
+                opacity: 0.5,
+                scaleX: 1,
+                duration: 0.8,
+                ease: 'power2.out',
+                scrollTrigger: {
+                    trigger: divider,
+                    start: 'top 80%',
+                },
+            });
+        });
+
+        socialLinks.forEach((link, idx) => {
+            gsap.from(link, {
+                opacity: 0,
+                y: 20,
+                duration: 0.6,
+                delay: idx * 0.1,
+                ease: 'power3.out',
+                scrollTrigger: {
+                    trigger: link,
+                    start: 'top 85%',
+                },
+            });
+        });
+    }
+
     async function init() {
         gsap.registerPlugin(ScrollTrigger);
 
@@ -832,21 +962,31 @@
         initLoader();
         initShader();
         initLenis();
-        initHero();
-        initParallax();
+        initSmoothAnchorLinks();
 
-        await loadConfig();
-        const photos = await loadPhotos();
-        const renderedPhotos = renderGallery(photos);
+        const isAboutPage = document.querySelector('.about-hero');
+        const isIndexPage = document.querySelector('.hero');
 
-        requestAnimationFrame(() => {
+        if (isAboutPage) {
+            initAboutPage();
+            initFooter();
+        } else if (isIndexPage) {
+            initHero();
+            initParallax();
+
+            await loadConfig();
+            const photos = await loadPhotos();
+            const renderedPhotos = renderGallery(photos);
+
             requestAnimationFrame(() => {
-                initGalleryAnimations();
-                initFocusMode(renderedPhotos);
-                initFooter();
-                ScrollTrigger.refresh();
+                requestAnimationFrame(() => {
+                    initGalleryAnimations();
+                    initFocusMode(renderedPhotos);
+                    initFooter();
+                    ScrollTrigger.refresh();
+                });
             });
-        });
+        }
     }
 
     if (document.readyState === 'loading') {

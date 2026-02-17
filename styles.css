@@ -873,6 +873,48 @@ button {
     opacity: 0;
 }
 
+/* Social Links */
+.social-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: transparent;
+    transition: all 0.4s var(--easing);
+    cursor: pointer;
+}
+
+.social-link:hover {
+    background: var(--glass-bg);
+    border-color: var(--accent-dim);
+    transform: translateY(-2px);
+}
+
+.social-link__label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.social-link__arrow {
+    font-size: 1.1rem;
+    transition: transform 0.4s var(--easing);
+}
+
+.social-link:hover .social-link__arrow {
+    transform: translate(4px, -4px);
+}
+
 /* --- 10. FOOTER --- */
 .footer {
     padding: 6rem 4% 3rem;
