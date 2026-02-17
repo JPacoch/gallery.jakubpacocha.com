@@ -617,7 +617,8 @@
 
             const item = document.createElement('div');
             item.className = 'gallery-item';
-            item.dataset.index = photos.indexOf(photo);
+            // FIX: Store the index in the sorted array, not the original array
+            item.dataset.index = idx;
             item.innerHTML = `
                 <div class="gallery-item__wrapper">
                     <img
@@ -641,7 +642,8 @@
             countEl.textContent = `${photos.length} Works`;
         }
 
-        return photos;
+        // FIX: Return the sorted array since that's what's displayed
+        return sortedPhotos;
     }
 
     function initGalleryAnimations() {
@@ -688,6 +690,10 @@
 
     let currentPhotos = [];
     let focusActive = false;
+    let gridClickHandler = null;
+    let overlayClickHandler = null;
+    let keydownHandler = null;
+    let closeClickHandler = null;
 
     function initFocusMode(photos) {
         currentPhotos = photos;
@@ -703,7 +709,22 @@
         const exifPanel = overlay.querySelector('.focus-overlay__exif');
         if (!overlayImg || !closeBtn || !exifPanel) return;
 
-        grid.addEventListener('click', (e) => {
+        // Remove old event listeners if they exist
+        if (gridClickHandler) {
+            grid.removeEventListener('click', gridClickHandler);
+        }
+        if (closeClickHandler) {
+            closeBtn.removeEventListener('click', closeClickHandler);
+        }
+        if (overlayClickHandler) {
+            overlay.removeEventListener('click', overlayClickHandler);
+        }
+        if (keydownHandler) {
+            document.removeEventListener('keydown', keydownHandler);
+        }
+
+        // Create new event handlers with current photos closure
+        gridClickHandler = (e) => {
             const item = e.target.closest('.gallery-item');
             if (!item) return;
 
@@ -714,16 +735,23 @@
             if (!photo) return;
 
             openFocus(photo, item, overlay, overlayImg, exifPanel);
-        });
+        };
 
-        closeBtn.addEventListener('click', () => closeFocus(overlay));
-        overlay.addEventListener('click', (e) => {
+        closeClickHandler = () => closeFocus(overlay);
+
+        overlayClickHandler = (e) => {
             if (e.target === overlay) closeFocus(overlay);
-        });
+        };
 
-        document.addEventListener('keydown', (e) => {
+        keydownHandler = (e) => {
             if (e.key === 'Escape' && focusActive) closeFocus(overlay);
-        });
+        };
+
+        // Add new event listeners
+        grid.addEventListener('click', gridClickHandler);
+        closeBtn.addEventListener('click', closeClickHandler);
+        overlay.addEventListener('click', overlayClickHandler);
+        document.addEventListener('keydown', keydownHandler);
     }
 
     function openFocus(photo, sourceEl, overlay, overlayImg, exifPanel) {
