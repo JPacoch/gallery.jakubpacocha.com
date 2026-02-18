@@ -9,7 +9,7 @@
       "aspectRatio": "1545:1024",
       "orientation": "landscape",
       "exif": {
-        "camera": "Zenith ET",
+        "camera": "Zenith E",
         "lens": "Helios 44-2 58mm f/2",
         "aperture": "f/2",
         "shutter": "N/A",
@@ -20,13 +20,13 @@
       "id": "2",
       "publicId": "_B240061_ywsa2c",
       "title": "Untitled",
-      "category": "General",
+      "category": "Tromso",
       "year": "2026",
       "aspectRatio": "4:3",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -35,14 +35,14 @@
     {
       "id": "3",
       "publicId": "_B240070_brahyv",
-      "title": "Untitled",
-      "category": "General",
+      "title": "yield",
+      "category": "Tromso",
       "year": "2026",
       "aspectRatio": "4:3",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -52,13 +52,13 @@
       "id": "4",
       "publicId": "_B240084_mh0iac",
       "title": "Untitled",
-      "category": "General",
+      "category": "Tromso",
       "year": "2026",
       "aspectRatio": "4:3",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -68,13 +68,13 @@
       "id": "5",
       "publicId": "_B240097_yklpb9",
       "title": "Untitled",
-      "category": "General",
+      "category": "Tromso",
       "year": "2026",
       "aspectRatio": "4:3",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -89,8 +89,8 @@
       "aspectRatio": "3:4",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "Lumix G 25mm f/1.7",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -105,8 +105,8 @@
       "aspectRatio": "1876:2501",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "Lumix G 25mm f/1.7",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -116,13 +116,13 @@
       "id": "8",
       "publicId": "_8160005_ad6eax",
       "title": "Untitled",
-      "category": "General",
+      "category": "Portugal",
       "year": "2026",
       "aspectRatio": "648:365",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -132,13 +132,13 @@
       "id": "9",
       "publicId": "_8160016_diquci",
       "title": "Untitled",
-      "category": "General",
+      "category": "Portugal",
       "year": "2026",
       "aspectRatio": "648:365",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -148,13 +148,13 @@
       "id": "10",
       "publicId": "_8160038_omoqrg",
       "title": "Untitled",
-      "category": "General",
+      "category": "Portugal",
       "year": "2026",
       "aspectRatio": "648:365",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -164,13 +164,13 @@
       "id": "11",
       "publicId": "_8160098_jl1akh",
       "title": "Untitled",
-      "category": "General",
+      "category": "Portugal",
       "year": "2026",
       "aspectRatio": "365:648",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -180,13 +180,13 @@
       "id": "12",
       "publicId": "PXL_20250614_145240818_ss5sgk",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "3017:4007",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "Pixel 6",
+        "lens": "N/A",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -196,13 +196,13 @@
       "id": "13",
       "publicId": "PXL_20250617_180050117_1_bw5v7z",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "Pixel 6",
+        "lens": "N/A",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -212,13 +212,13 @@
       "id": "14",
       "publicId": "PXL_20250617_184255920_axoivx",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -228,13 +228,13 @@
       "id": "15",
       "publicId": "PXL_20250617_184336415_1_grnvkb",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -244,13 +244,13 @@
       "id": "16",
       "publicId": "PXL_20250617_185319164_1_fdk2oh",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -260,13 +260,13 @@
       "id": "17",
       "publicId": "PXL_20250618_091524956_1_ux56dt",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -276,13 +276,13 @@
       "id": "18",
       "publicId": "PXL_20250814_181606743_fukvu1",
       "title": "Untitled",
-      "category": "General",
+      "category": "Portugal",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "Pixel 6",
+        "lens": "N/A",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -291,14 +291,14 @@
     {
       "id": "19",
       "publicId": "PXL_20250822_192409444_ws9oyg",
-      "title": "Untitled",
-      "category": "General",
+      "title": "porto",
+      "category": "Portugal",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "Pixel 6",
+        "lens": "N/A",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -307,14 +307,14 @@
     {
       "id": "20",
       "publicId": "PXL_20250822_144458786_bvw5ek",
-      "title": "Untitled",
-      "category": "General",
+      "title": "se",
+      "category": "Portugal",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "Pixel 6",
+        "lens": "N/A",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -324,13 +324,13 @@
       "id": "21",
       "publicId": "PXL_20250822_103845413_xhiux3",
       "title": "Untitled",
-      "category": "General",
+      "category": "Portugal",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -339,14 +339,14 @@
     {
       "id": "22",
       "publicId": "PXL_20250818_194639072_1_w8mwse",
-      "title": "Untitled",
-      "category": "General",
+      "title": "caloura",
+      "category": "Portugal",
       "year": "2026",
       "aspectRatio": "64:85",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "Pixel 6",
+        "lens": "N/A",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -355,14 +355,14 @@
     {
       "id": "23",
       "publicId": "PXL_20250525_183859414_c1bztg",
-      "title": "Untitled",
+      "title": "cph",
       "category": "General",
       "year": "2026",
       "aspectRatio": "85:64",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "Pixel 6",
+        "lens": "N/A",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -372,13 +372,13 @@
       "id": "24",
       "publicId": "_6200423_h72sxh",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "3:4",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -388,13 +388,13 @@
       "id": "25",
       "publicId": "_6180292_jpp4id",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "648:365",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -403,14 +403,14 @@
     {
       "id": "26",
       "publicId": "_6180288_vrf6l1",
-      "title": "Untitled",
-      "category": "General",
+      "title": "od zony",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "648:365",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -420,13 +420,13 @@
       "id": "27",
       "publicId": "_6180290_t1smw0",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "648:365",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -436,13 +436,13 @@
       "id": "28",
       "publicId": "_6180281_f8crdl",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "365:648",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -452,13 +452,13 @@
       "id": "29",
       "publicId": "_6180273_cr16wa",
       "title": "Untitled",
-      "category": "General",
+      "category": "Scotland",
       "year": "2026",
       "aspectRatio": "648:365",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
         "aperture": "N/A",
         "shutter": "N/A",
         "iso": "N/A"
@@ -467,49 +467,49 @@
     {
       "id": "30",
       "publicId": "000006_psde6b",
-      "title": "Untitled",
-      "category": "General",
+      "title": "homies",
+      "category": "35mm",
       "year": "2026",
       "aspectRatio": "1205:1528",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
-        "aperture": "N/A",
-        "shutter": "N/A",
-        "iso": "N/A"
+        "camera": "Canon EOS 300",
+        "lens": "Canon EF 28-80mm f/3.5-5.6",
+        "aperture": "f/3.5",
+        "shutter": "1/30",
+        "iso": "200"
       }
     },
     {
       "id": "31",
       "publicId": "000001_f1hkqz",
       "title": "Untitled",
-      "category": "General",
+      "category": "35mm",
       "year": "2026",
       "aspectRatio": "241:359",
       "orientation": "portrait",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
-        "aperture": "N/A",
-        "shutter": "N/A",
-        "iso": "N/A"
+        "camera": "Canon EOS 300",
+        "lens": "Canon EF 28-80mm f/3.5-5.6",
+        "aperture": "f/3.5",
+        "shutter": "1/60",
+        "iso": "200"
       }
     },
     {
       "id": "32",
       "publicId": "000034_r3hl2a",
-      "title": "Untitled",
-      "category": "General",
+      "title": "grabowno",
+      "category": "35mm",
       "year": "2026",
       "aspectRatio": "909:614",
       "orientation": "landscape",
       "exif": {
-        "camera": "Unknown",
-        "lens": "Unknown",
-        "aperture": "N/A",
-        "shutter": "N/A",
-        "iso": "N/A"
+        "camera": "Canon EOS 300",
+        "lens": "Canon EF 28-80mm f/3.5-5.6",
+        "aperture": "f/3.5",
+        "shutter": "1/10",
+        "iso": "200"
       }
     }
   ]
