@@ -8,3 +8,4 @@ venv/
 backups/
 
 DESIGN_THINKING.md
+__pycache__

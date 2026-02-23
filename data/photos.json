@@ -13,7 +13,8 @@
         "lens": "Helios 44-2 58mm f/2",
         "aperture": "f/2",
         "shutter": "N/A",
-        "iso": "200"
+        "iso": "200",
+        "filmStock": ""
       }
     },
     {
@@ -477,7 +478,8 @@
         "lens": "Canon EF 28-80mm f/3.5-5.6",
         "aperture": "f/3.5",
         "shutter": "1/30",
-        "iso": "200"
+        "iso": "200",
+        "filmStock": "Fomapan 400"
       }
     },
     {
@@ -493,7 +495,8 @@
         "lens": "Canon EF 28-80mm f/3.5-5.6",
         "aperture": "f/3.5",
         "shutter": "1/60",
-        "iso": "200"
+        "iso": "200",
+        "filmStock": "Fomapan 400"
       }
     },
     {
@@ -509,7 +512,8 @@
         "lens": "Canon EF 28-80mm f/3.5-5.6",
         "aperture": "f/3.5",
         "shutter": "1/10",
-        "iso": "200"
+        "iso": "200",
+        "filmStock": "Fomapan 400"
       }
     }
   ]

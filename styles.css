@@ -1153,11 +1153,22 @@ button {
     }
 
     .focus-overlay__exif {
-        gap: 1.2rem;
-        padding: 0.8rem 1.2rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 90vw;
+        gap: 1rem;
+        padding: 0.65rem 1rem;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        max-width: min(360px, 80vw);
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .focus-overlay__exif::-webkit-scrollbar {
+        display: none;
+    }
+
+    .exif-item {
+        flex-shrink: 0;
     }
 
     .exif-item__value {

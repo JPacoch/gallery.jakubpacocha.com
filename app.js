@@ -787,13 +787,20 @@
 
         if (photo.exif) {
             exifPanel.innerHTML = '';
-            const fields = [
-                { label: 'Camera', value: photo.exif.camera },
-                { label: 'Lens', value: photo.exif.lens },
-                { label: 'Aperture', value: photo.exif.aperture },
-                { label: 'Shutter', value: photo.exif.shutter },
-                { label: 'ISO', value: photo.exif.iso },
-            ];
+            const is35mm = photo.category === '35mm';
+            const fields = is35mm
+                ? [
+                    { label: 'Camera', value: photo.exif.camera },
+                    { label: 'Lens', value: photo.exif.lens },
+                    { label: 'Film', value: photo.exif.filmStock },
+                ]
+                : [
+                    { label: 'Camera', value: photo.exif.camera },
+                    { label: 'Lens', value: photo.exif.lens },
+                    { label: 'Aperture', value: photo.exif.aperture },
+                    { label: 'Shutter', value: photo.exif.shutter },
+                    { label: 'ISO', value: photo.exif.iso },
+                ];
             fields.forEach((f) => {
                 if (!f.value) return;
                 const el = document.createElement('div');
