@@ -131,22 +131,6 @@
     },
     {
       "id": "9",
-      "publicId": "_8160016_diquci",
-      "title": "Untitled",
-      "category": "Portugal",
-      "year": "2026",
-      "aspectRatio": "648:365",
-      "orientation": "landscape",
-      "exif": {
-        "camera": "OM-D EM-5 MkIII",
-        "lens": "M. Zuiko 12-45mm f/4 PRO",
-        "aperture": "N/A",
-        "shutter": "N/A",
-        "iso": "N/A"
-      }
-    },
-    {
-      "id": "10",
       "publicId": "_8160038_omoqrg",
       "title": "Untitled",
       "category": "Portugal",
@@ -162,7 +146,7 @@
       }
     },
     {
-      "id": "11",
+      "id": "10",
       "publicId": "_8160098_jl1akh",
       "title": "Untitled",
       "category": "Portugal",
@@ -178,7 +162,7 @@
       }
     },
     {
-      "id": "12",
+      "id": "11",
       "publicId": "PXL_20250614_145240818_ss5sgk",
       "title": "Untitled",
       "category": "Scotland",
@@ -194,7 +178,7 @@
       }
     },
     {
-      "id": "13",
+      "id": "12",
       "publicId": "PXL_20250617_180050117_1_bw5v7z",
       "title": "Untitled",
       "category": "Scotland",
@@ -210,7 +194,7 @@
       }
     },
     {
-      "id": "14",
+      "id": "13",
       "publicId": "PXL_20250617_184255920_axoivx",
       "title": "Untitled",
       "category": "Scotland",
@@ -226,7 +210,7 @@
       }
     },
     {
-      "id": "15",
+      "id": "14",
       "publicId": "PXL_20250617_184336415_1_grnvkb",
       "title": "Untitled",
       "category": "Scotland",
@@ -242,7 +226,7 @@
       }
     },
     {
-      "id": "16",
+      "id": "15",
       "publicId": "PXL_20250617_185319164_1_fdk2oh",
       "title": "Untitled",
       "category": "Scotland",
@@ -258,7 +242,7 @@
       }
     },
     {
-      "id": "17",
+      "id": "16",
       "publicId": "PXL_20250618_091524956_1_ux56dt",
       "title": "Untitled",
       "category": "Scotland",
@@ -274,7 +258,7 @@
       }
     },
     {
-      "id": "18",
+      "id": "17",
       "publicId": "PXL_20250814_181606743_fukvu1",
       "title": "Untitled",
       "category": "Portugal",
@@ -290,7 +274,7 @@
       }
     },
     {
-      "id": "19",
+      "id": "18",
       "publicId": "PXL_20250822_192409444_ws9oyg",
       "title": "porto",
       "category": "Portugal",
@@ -306,7 +290,7 @@
       }
     },
     {
-      "id": "20",
+      "id": "19",
       "publicId": "PXL_20250822_144458786_bvw5ek",
       "title": "se",
       "category": "Portugal",
@@ -322,7 +306,7 @@
       }
     },
     {
-      "id": "21",
+      "id": "20",
       "publicId": "PXL_20250822_103845413_xhiux3",
       "title": "Untitled",
       "category": "Portugal",
@@ -338,7 +322,7 @@
       }
     },
     {
-      "id": "22",
+      "id": "21",
       "publicId": "PXL_20250818_194639072_1_w8mwse",
       "title": "caloura",
       "category": "Portugal",
@@ -354,7 +338,7 @@
       }
     },
     {
-      "id": "23",
+      "id": "22",
       "publicId": "PXL_20250525_183859414_c1bztg",
       "title": "cph",
       "category": "General",
@@ -370,7 +354,7 @@
       }
     },
     {
-      "id": "24",
+      "id": "23",
       "publicId": "_6200423_h72sxh",
       "title": "Untitled",
       "category": "Scotland",
@@ -386,7 +370,7 @@
       }
     },
     {
-      "id": "25",
+      "id": "24",
       "publicId": "_6180292_jpp4id",
       "title": "Untitled",
       "category": "Scotland",
@@ -402,7 +386,7 @@
       }
     },
     {
-      "id": "26",
+      "id": "25",
       "publicId": "_6180288_vrf6l1",
       "title": "od zony",
       "category": "Scotland",
@@ -418,7 +402,7 @@
       }
     },
     {
-      "id": "27",
+      "id": "26",
       "publicId": "_6180290_t1smw0",
       "title": "Untitled",
       "category": "Scotland",
@@ -434,7 +418,7 @@
       }
     },
     {
-      "id": "28",
+      "id": "27",
       "publicId": "_6180281_f8crdl",
       "title": "Untitled",
       "category": "Scotland",
@@ -450,7 +434,7 @@
       }
     },
     {
-      "id": "29",
+      "id": "28",
       "publicId": "_6180273_cr16wa",
       "title": "Untitled",
       "category": "Scotland",
@@ -466,7 +450,7 @@
       }
     },
     {
-      "id": "30",
+      "id": "29",
       "publicId": "000006_psde6b",
       "title": "homies",
       "category": "35mm",
@@ -483,7 +467,7 @@
       }
     },
     {
-      "id": "31",
+      "id": "30",
       "publicId": "000001_f1hkqz",
       "title": "Untitled",
       "category": "35mm",
@@ -500,7 +484,7 @@
       }
     },
     {
-      "id": "32",
+      "id": "31",
       "publicId": "000034_r3hl2a",
       "title": "grabowno",
       "category": "35mm",
@@ -514,6 +498,86 @@
         "shutter": "1/10",
         "iso": "200",
         "filmStock": "Fomapan 400"
+      }
+    },
+    {
+      "id": "32",
+      "publicId": "_6190343_lsh8l4",
+      "title": "Untitled",
+      "category": "General",
+      "year": "2026",
+      "aspectRatio": "4:3",
+      "orientation": "landscape",
+      "exif": {
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
+        "aperture": "f/4.5",
+        "shutter": "1/2000",
+        "iso": "1600"
+      }
+    },
+    {
+      "id": "33",
+      "publicId": "_6180240_1_olaz29",
+      "title": "owieczki",
+      "category": "General",
+      "year": "2026",
+      "aspectRatio": "4:3",
+      "orientation": "landscape",
+      "exif": {
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
+        "aperture": "f/4.5",
+        "shutter": "1/2000",
+        "iso": "1600"
+      }
+    },
+    {
+      "id": "34",
+      "publicId": "_6180229_1_y7hn3c",
+      "title": "Storr",
+      "category": "Scotland",
+      "year": "2026",
+      "aspectRatio": "3:4",
+      "orientation": "portrait",
+      "exif": {
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
+        "aperture": "f/4.5",
+        "shutter": "1/5000",
+        "iso": "1600"
+      }
+    },
+    {
+      "id": "35",
+      "publicId": "_6180249_1_ip4sgj",
+      "title": "Untitled",
+      "category": "Scotland",
+      "year": "2026",
+      "aspectRatio": "4:3",
+      "orientation": "landscape",
+      "exif": {
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
+        "aperture": "f/4",
+        "shutter": "1/2000",
+        "iso": "1600"
+      }
+    },
+    {
+      "id": "36",
+      "publicId": "_B240049_1_j4f5vf",
+      "title": "karmienie fiorda",
+      "category": "Tromso",
+      "year": "2026",
+      "aspectRatio": "4:3",
+      "orientation": "landscape",
+      "exif": {
+        "camera": "OM-D EM-5 MkIII",
+        "lens": "M. Zuiko 12-45mm f/4 PRO",
+        "aperture": "f/4",
+        "shutter": "1/40",
+        "iso": "200"
       }
     }
   ]
