@@ -780,10 +780,44 @@
 
     function openFocus(photo, sourceEl, overlay, overlayImg, exifPanel) {
         focusActive = true;
-        const src = getPhotoSrc(photo, 2400);
+        const targetSrc = getPhotoSrc(photo, 2400);
 
-        overlayImg.src = src;
+        const thumbImg = sourceEl.querySelector('img');
+        if (thumbImg && thumbImg.src && thumbImg.naturalWidth) {
+            overlayImg.src = thumbImg.src;
+
+            const aspect = thumbImg.naturalWidth / thumbImg.naturalHeight;
+            const screenAspect = window.innerWidth / window.innerHeight;
+
+            if (aspect > screenAspect) {
+                overlayImg.style.width = '85vw';
+                overlayImg.style.height = 'auto';
+            } else {
+                overlayImg.style.width = 'auto';
+                overlayImg.style.height = '85vh';
+            }
+        } else {
+            overlayImg.removeAttribute('src');
+            overlayImg.style.width = '';
+            overlayImg.style.height = '';
+        }
+
         overlayImg.alt = photo.title || 'Photo';
+
+        const currentPhotoId = photo.id;
+        overlayImg.dataset.currentId = currentPhotoId;
+
+        if (targetSrc) {
+            const highResImg = new Image();
+            highResImg.onload = () => {
+                if (overlayImg.dataset.currentId === currentPhotoId) {
+                    overlayImg.src = targetSrc;
+                    overlayImg.style.width = '';
+                    overlayImg.style.height = '';
+                }
+            };
+            highResImg.src = targetSrc;
+        }
 
         if (photo.exif) {
             exifPanel.innerHTML = '';
