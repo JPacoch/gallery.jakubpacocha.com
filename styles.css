@@ -248,6 +248,8 @@ button {
 .hero__line {
     display: block;
     overflow: hidden;
+    padding-bottom: 0.2em;
+    margin-bottom: -0.2em;
 }
 
 .hero__char {
