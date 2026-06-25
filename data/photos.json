@@ -733,6 +733,23 @@
         "iso": "400",
         "filmStock": "Agfaphoto APX 400"
       }
+    },
+    {
+      "id": "46",
+      "publicId": "0008__z8phqh",
+      "title": "bycop",
+      "category": "35mm",
+      "year": "2026",
+      "aspectRatio": "191:288",
+      "orientation": "portrait",
+      "exif": {
+        "camera": "Minolta Dynax 5",
+        "lens": "Minolta AF 50mm f/1.7",
+        "aperture": "N/A",
+        "shutter": "N/A",
+        "iso": "200",
+        "filmStock": "Kodak Colorplus 200"
+      }
     }
   ]
 }
